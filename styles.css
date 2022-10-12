@@ -1,0 +1,107 @@
+.caja {
+    margin: 20px;
+    padding: 20px;
+}
+
+header nav {
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav li{
+    float: left;
+}
+
+header nav li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+}
+
+header nav li a:hover{
+    background: #4f84b5;
+    color: #fff;
+}
+
+
+
+/*Botones*/
+.boton {
+    background: #fff;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.save {
+    border: 1px solid #4fb560;
+    color: #4fb560;
+}
+
+.save:hover {
+    background: #4fb560;
+    color: #fff;
+}
+
+.delete {
+    border: 1px solid #d67c7c;
+    color: #d67c7c;
+}
+
+.delete:hover {
+    background: #d67c7c;
+    color: #fff;
+}
+
+.add {
+    border: 1px solid #4f84b5;
+    color: #4f84b5;
+}
+
+.add:hover, .guardado{
+    border: 1px solid #4f84b5;
+    background: #4f84b5;
+    color: #fff;
+}
+
+
+.menos {
+    background: #fff;
+    border: 1px solid #d67c7c;
+    color: #d67c7c;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.menos:hover {
+    background: #d67c7c;
+    color: #fff;
+}
+
+.mas {
+    background: #fff;
+    border: 1px solid #4fb560;
+    color: #4fb560;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.mas:hover {
+    background: #4fb560;
+    color: #fff;   
+}
+
+.juego {
+    margin: 12px;
+    display: inline-block;
+}
